@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<center>
+  <div class="contents" >
+  <h1>Student Details</h1>
+  <div class="form">
+<form action="add.jsp" method="POST"><table align="center" cellpadding = "10">
+<tr>
+<td style=color:white>First Name</td>
+<td><input type="text" name="name" maxlength="50" placeholder="Itachi" />
+
+</td>
+</tr>
+<tr>
+<td style=color:white>Last Name</td>
+<td><input type="text" name="lname" maxlength="50" placeholder="Uchiha"/>
+
+</td>
+</tr>
+<tr>
+<td style=color:white>USN</td>
+<td><input type="text" name="usn" maxlength="100" placeholder="4AD19CS048"/></td>
+</tr>
+<tr>
+<td style=color:white>Mobile Number</td>
+<td>
+<input type="text" name="phone" maxlength="10" placeholder="9696969696"/>
+
+</td>
+</tr>
+<tr>
+<td style=color:white>Gender</td>
+<td>
+<input type="radio" name="gender" value="Male" /><span style=color:white>Male</span>
+
+<input type="radio" name="gender" value="Female" /><span style=color:white>Female</span>
+
+</td>
+</tr>
+<tr>
+<td style=color:white>Date of Birth(DOB)</td>
+<td>
+<input type="date" name="dob">
+</td>
+<tr>
+<td style=color:white>Branch</td>
+<td><select name="branch" >
+<option value="CSE">Computer Science Engineering</option>
+<option value="ECE">Electronics and communication Engineering</option>
+<option value="EEE">Electrical and electronics Engineering</option>
+<option value="ME">Mechanical Engineering</option>
+<option value="CV">Civil Engineering</option>
+
+</select></td>
+<tr>
+<td style=color:white>Year</td>
+<td><select name="year" >
+<option value="1">1st</option>
+<option value="2">2nd</option>
+<option value="3">3rd</option>
+<option value="4">4th</option>
+
+</select></td>
+</tr>
+</tr>
+
+<tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" class="button" value="Submit">
+<input type="reset" class="button" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+  </div>
+  </div>
+  
+</center>
+</body>
+</html>
